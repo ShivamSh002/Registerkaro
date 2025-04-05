@@ -13,7 +13,7 @@ import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
+import Button from '@mui/material/Button';  
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 
 const drawerWidth = 240;
@@ -50,7 +50,7 @@ function NavBar(props) {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar component="nav" position="fixed" sx={{ bgcolor: 'white', color: 'black' }} >
+      <AppBar component="nav" sx={{ bgcolor: 'white', color: 'black' }} >
         <Toolbar sx={{ justifyContent: 'space-evenly' }}>
           <IconButton
             color="inherit"
