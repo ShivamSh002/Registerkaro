@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./Components/NavBar/NavBar";
 import HeroSection from "./Components/HeroSection/HeroSection";
 import Highlight from "./Components/HighLight/Highlight";
+import ChooseSection from "./Components/ChooseSection/ChooseSection";
 
 const App = () => {
   return (
@@ -11,6 +12,9 @@ const App = () => {
         <HeroSection />
       </div>
       <Highlight/>
+    
+      <ChooseSection/>
+   
     </div>
   );
 };
