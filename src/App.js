@@ -8,6 +8,7 @@ import PartnerSwiper from "./Components/PartnerSwiper/PartnerSwiper";
 import BlogSwiper from "./Components/BlogSwiper/BlogSwiper";
 import CilentFeedback from "./Components/CilentFeedback/CilentFeedback";
 import WhatWeDo from "./Components/WhatWeDo/WhatWeDo";
+import ContactMain from "./Components/ContactInfo/ContactMain";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
       <PartnerSwiper/>
       <CilentFeedback/>
       <BlogSwiper/>
+      <ContactMain/>
    
     </div>
   );
