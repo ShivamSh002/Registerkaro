@@ -2,7 +2,7 @@ import React from "react";
 
 const Highlight = () => {
   return (
-    <div className="bg-black text-white py-10 px-4 sm:px-12">
+    <div className="bg-black text-white py-15 px-4 sm:px-12">
   <p className="text-4xl sm:text-4xl md:text-5xl font-serif font-normal tracking-wide mb-9 mx-30">
     A few highlights
   </p>
