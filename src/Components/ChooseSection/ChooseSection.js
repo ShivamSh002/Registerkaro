@@ -1,14 +1,23 @@
 import React from 'react'
+import {
+  AttachMoney,
+  VerifiedUser,
+  RocketLaunch,
+  AccessTime,
+  FlashOn,
+  BusinessCenter,
+} from '@mui/icons-material';
 
 const ChooseSection = () => {
-    const features = [
-        { id: 1, title: 'Affordable', description: 'Cost-effective solutions tailored to your budget.', icon: '💰' },
-        { id: 2, title: 'Compliance Ensured', description: 'Stay compliant with all regulations and standards.', icon: '✅' },
-        { id: 3, title: 'Simplified Process', description: 'Easy-to-follow steps for a hassle-free experience.', icon: '🚀' },
-        { id: 4, title: 'On-time Service', description: 'Reliable and punctual delivery of services.', icon: '⏱' },
-        { id: 5, title: 'Instant Response', description: 'Get quick answers and solutions to your queries.', icon: '⚡' },
-        { id: 6, title: 'Industry Experts', description: 'Benefit from the knowledge of seasoned professionals.', icon: '👨‍💼' },
-      ];
+  const features = [
+    { id: 1, title: 'Affordable', description: 'Cost-effective solutions tailored to your budget.', icon: <AttachMoney fontSize="large" className="text-indigo-500" /> },
+    { id: 2, title: 'Compliance Ensured', description: 'Stay compliant with all regulations and standards.', icon: <VerifiedUser fontSize="large" className="text-green-500" /> },
+    { id: 3, title: 'Simplified Process', description: 'Easy-to-follow steps for a hassle-free experience.', icon: <RocketLaunch fontSize="large" className="text-purple-500" /> },
+    { id: 4, title: 'On-time Service', description: 'Reliable and punctual delivery of services.', icon: <AccessTime fontSize="large" className="text-orange-500" /> },
+    { id: 5, title: 'Instant Response', description: 'Get quick answers and solutions to your queries.', icon: <FlashOn fontSize="large" className="text-yellow-500" /> },
+    { id: 6, title: 'Industry Experts', description: 'Benefit from the knowledge of seasoned professionals.', icon: <BusinessCenter fontSize="large" className="text-blue-500" /> },
+  ];
+
     
       return (
         <section className="bg-white p-16">
