@@ -7,6 +7,7 @@ import OurServices from "./Components/OurServices/OurServices";
 import PartnerSwiper from "./Components/PartnerSwiper/PartnerSwiper";
 import BlogSwiper from "./Components/BlogSwiper/BlogSwiper";
 import CilentFeedback from "./Components/CilentFeedback/CilentFeedback";
+import WhatWeDo from "./Components/WhatWeDo/WhatWeDo";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <ChooseSection/>
       <Highlight/>
       <OurServices/>
+      <WhatWeDo/>
       <PartnerSwiper/>
       <CilentFeedback/>
       <BlogSwiper/>
