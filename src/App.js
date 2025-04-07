@@ -9,6 +9,7 @@ import BlogSwiper from "./Components/BlogSwiper/BlogSwiper";
 import CilentFeedback from "./Components/CilentFeedback/CilentFeedback";
 import WhatWeDo from "./Components/WhatWeDo/WhatWeDo";
 import ContactMain from "./Components/ContactInfo/ContactMain";
+import Footer from "./Components/Footer/Footer";
 
 const App = () => {
   return (
@@ -27,7 +28,7 @@ const App = () => {
       <CilentFeedback/>
       <BlogSwiper/>
       <ContactMain/>
-   
+      <Footer/>
     </div>
   );
 };
